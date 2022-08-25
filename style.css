@@ -1,0 +1,60 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.container{
+    max-width: 80%;
+    
+    padding: 34px;
+    margin: auto;
+}
+.container h1,p{
+    
+    text-align: center;
+    
+}
+.container h1{
+    font-size: 50px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+p{
+    font-size: 20px;
+}
+input,textarea{
+   
+    font-size: 20px;
+    width: 80%;
+    margin: 11px;
+   padding: 8px;
+ border-radius: 6px;
+}
+button{
+    font-size: 20px;
+    color: white;
+    background-color: blueviolet;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 6px;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+}
+.bg{
+   width: 100%; 
+   position: absolute;
+   z-index: -1;
+   opacity: .6;
+}
+.submitedmsg{
+    color: rgb(6, 125, 16);
+}
